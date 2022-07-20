@@ -1,0 +1,51 @@
+                  *********** MongoDB ************
+
+       SQL                 NoSQL
+
+        MySQL               MongoDB                MERN
+ Database               Database             Dynamic Schema / Schema less
+ Table                  Collection           Faster data access
+ Rows / Records         Documents            Document baud storage (JSON)
+ Structured             Non Structured       Replication & HA
+ Column                 Fields (JSON)        Sharding data & High Performance
+
+        ************ Types of NoSQL Databases ************
+   -  Key-value stores
+   -  Column-oriented databases
+   -  Document databases
+   -  Graph databases
+   -  Multi-Model Databases
+
+            ********** Examples of NoSql **********
+* MongoDB
+* CouchDB
+* Cassandra
+* Amazon Dynamo DB
+* RavenDB
+
+            ***** Initial Topics *****
+
+* Installation (Server / Client tools) - Docker Container
+
+* Manage Database (Create / Switch Dvop)
+
+* Manage Collections
+
+* Manage Documents
+
+    C - Create
+    R - Read
+    U - Update
+    D - Delete
+
+* Backup & Restore
+
+* Replication
+
+* Sharding
+
+* Rock Mongo
+
+* GUI Administration tool
+
+--- How to Install MangoDB Installation----  (lxc list)
