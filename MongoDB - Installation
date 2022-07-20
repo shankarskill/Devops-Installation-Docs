@@ -1,5 +1,43 @@
 ************* How to Install MongoDB ************
  - Steps to install MongoDB in CentOS
+1 Configure the package management system (yum).
+
+Create a /etc/yum.repos.d/mongodb-org-6.0.repo file so that you can install MongoDB directly using yum:
+
+[mongodb-org-6.0]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/redhat/$releasever/mongodb-org/6.0/x86_64/
+gpgcheck=1
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-6.0.asc 
+
+2 Install the MongoDB packages.
+
+ sudo yum install -y mongodb-org
+
+Start MongoDB
+
+ sudo systemctl start mongod
+ 
+ sudo systemctl daemon-reload
+
+Verify that MongoDB has started successfully
+
+sudo systemctl status mongod
+sudo systemctl enable mongod
+
+Stop MongoDB.
+ 
+ sudo systemctl stop mongod
+ 
+Restart MongoDB.
+
+ sudo systemctl restart mongod
+
+Begin using MongoDB.
+
+mongosh
+ 
  - Steps to install MongoDB in Deb / Ubuntu
  - Steps to install MongoDB in Docker / Container
  - Steps to install MongoDB in Windows 
